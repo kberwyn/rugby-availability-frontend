@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'https://your-actual-railway-url.up.railway.app';
+const API_URL = 'https://vipersavailability-production.up.railway.app';
 
 function App() {
   const [matches, setMatches] = useState([]);
